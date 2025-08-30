@@ -29,7 +29,9 @@
     --secondary-font: 'Roboto', sans-serif;
 
 }
-
+.bo{
+    border: 2px solid red;
+}
 .active {
     color: var(--secondary-color) !important;
 }
@@ -38,7 +40,7 @@ body,
 html {
     color: var(--primart-text);
     font-size: 10px;
-    font-size: 400;
+    font-weight: 400;
     font-family: var(--primary-font);
     scroll-behavior: smooth;
     line-height: 1.5;
